@@ -1,0 +1,6 @@
+export {default as Navbar} from "./navbar/navbar"
+export {default as Logo} from "./logo/logo"
+export {default as Images} from "./images/images"
+export {default as CollegeDetailsFooter} from "./college-details-footer/college-details-footer"
+export {default as NavFooter} from "./nav_footer/nav_footer"
+export {default as SocialLinks} from "./social_links/social_links"
