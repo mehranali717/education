@@ -1,0 +1,4 @@
+.background-img {
+background: linear-gradient(rgba(78, 78, 104, 0.3), rgba(110, 110, 139, 0.3)),url(../../assets/images/banner-bg.jpg) no-repeat center;
+background-size: cover;
+}

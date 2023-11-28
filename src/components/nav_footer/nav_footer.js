@@ -5,7 +5,7 @@ const socialIcons = [{ icon: "twitter" }, { icon: "twitter" }, { icon: "twitter"
 const NavFooter = () => (
   <div className="pt-[48px] pb-[24px] flex justify-between items-center">
     <Logo className="max-w-[275px] h-[275px] "/>
-    <Navbar className="w-[550px]" />
+    <Navbar className="w-[550px]" navfont="font-[400]" />
     <SocialLinks socialIcons={socialIcons}/>
   </div>
 );
