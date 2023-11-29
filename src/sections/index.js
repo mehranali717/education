@@ -4,3 +4,4 @@ export {default as Banner} from "./banner/banner";
 export {default as Vision} from "./vision/vision";
 export {default as Departments} from "./departments/departments";
 export {default as Cocurricular} from "./cocurricular/cocurricular";
+export {default as Login} from "./login/login";

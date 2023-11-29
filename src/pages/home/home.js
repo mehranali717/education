@@ -1,5 +1,5 @@
 import { States, Testimonial } from "../../components";
-import { Banner, Vision, Departments, Cocurricular } from "../../sections";
+import { Banner, Vision, Departments, Cocurricular, Login } from "../../sections";
 
 const Home = () => (
   <>
@@ -9,6 +9,7 @@ const Home = () => (
     <Testimonial />
     <Departments />
     <Cocurricular />
+    <Login />
   </>
 );
 export default Home;

@@ -1,0 +1,10 @@
+.loginbg {
+    background: url(../../assets/images/loginbg.jpg) no-repeat center;
+    width:100%;
+    height: 700px;
+}
+.formbg {
+    background: url(../../assets/images/adminbg.jpeg) no-repeat center;
+    width: 100%;
+    height: 500px;
+}
