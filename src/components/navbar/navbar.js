@@ -13,10 +13,10 @@ const Navbar = (props) => {
     { title: "Contact Us" ,url:"contact-us"},
   ];
   return (
-    <nav className={`${props.className}`}>
+    <nav className={`${props.className} min-w-[660px]`}>
       <ul className="flex w-full justify-center flex-wrap">
         {navItems.map((item, index) => (
-          <li className={`${props.navfont} "text-[#76767f] text-[16px] px-[16px] font-[700]"`} key={index}><Link to={item.url}>{item.title}</Link></li>
+          <li key={index}><Link to={item.url} className={`${props.navfont} text-[#76767f] text-[15px] px-[16px] font-[700] no-underline`} >{item.title}</Link></li>
         ))}
       </ul>
     </nav>

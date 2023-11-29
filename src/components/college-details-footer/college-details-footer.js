@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CollegeDetailsFooter = () => (
   <div className="flex justify-between pb-[40px]">
     <div className="w-[550px] flex flex-col">
@@ -13,7 +15,7 @@ const CollegeDetailsFooter = () => (
         Main Office
       </h2>
       <span className="text-[#76767f] text-[16px] font-[400]">
-        <a href="+92 333 3628113">+92 333 3628113</a>
+        <Link href="+92 333 3628113" className="text-[#76767f] text-[16px] font-[400] no-underline">+92 333 3628113</Link>
       </span>
       <span className="text-[#76767f] text-[16px] font-[400]">
         9:00 a.m. – 4:00 p.m.
