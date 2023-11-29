@@ -14,7 +14,7 @@ const Cocurricular = () => (
     <div className="w-[1200px] mx-auto flex justify-between">
       <div className="flex flex-col gap-y-[15px] w-[550px]">
         {SportsData.map((item, index) => (
-          <Images image={item.image} key={index} className="rounded-[8px]" />
+          <Images image={item.image} key={index} className="rounded-[8px] shadow-lg" />
         ))}
       </div>
       <div className="w-[550px] flex flex-col gap-y-[30px] pe-[64px]">
@@ -47,7 +47,7 @@ const Cocurricular = () => (
           </div>
         </div>
         <div className="flex gap-[10px] ">
-          <Images image={CircleImage} className="w-[25px] h-[25px]" />
+          <Images image={CircleImage} className="w-[25px] h-[25px] " />
           <div className="flex flex-col gap-[10px]">
             <span className="text-[#26262c] text-[24px] font-[500]">
               Career Guidance Sessions:
