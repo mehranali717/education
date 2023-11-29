@@ -11,7 +11,7 @@ const Banner = () => (
           This is where we teach students skills they need to transform
           themselves, others, and our global communities.
         </span>
-        <Button value="our academics" className="px-[24px] py-[15px]"/>
+        <Button value="our academics"/>
       </div>
     </div>
   </div>
