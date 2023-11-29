@@ -32,7 +32,7 @@ const thumbnailData = [
   },
   {
     image: thumbnail5,
-    title: "Associate Degree Program (Arts & Science)",
+    title: "Associate (Arts, Science)",
     description:
       "In the Associate Degree Program (Arts & Science), we offer a versatile academic experience, blending the arts and sciences to provide students with a well-rounded education that prepares them for a range of career paths and further academic pursuits.",
   },

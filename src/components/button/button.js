@@ -1,2 +1,2 @@
-const Button =(props)=> <button {...props} className={`${props.className} px-[24px] py-[8px] rounded-[4px] font-[700] bg-[#fff] text-[#4747d7] text-[15px] capitalize`}>{props.value}</button>
+const Button =(props)=> <button {...props} className={`${props.className} px-[24px] py-[8px] rounded-[4px] font-[700] bg-[#009ba6] text-[#fff] text-[15px] capitalize`}>{props.value}</button>
 export default Button
