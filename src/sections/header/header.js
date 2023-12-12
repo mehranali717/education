@@ -1,8 +1,12 @@
 import { Logo, Navbar } from "../../components";
-
-const Header =()=> <div className="w-[1200px] flex items-center justify-between mx-auto py-[26px]">
-<Logo className="w-[116px] h-[116px] "/>
-<Navbar className="w-[1000px] me-[30px]"/>
-</div>
+import "./header.css";
+const Header = () => (
+  <div className="header-bg">
+    <div className="sm:w-full xl:w-[1200px] flex items-center justify-between mx-auto py-[5px] px-[20px] xl:px-[0px]">
+      <Logo className="w-[90px] h-[90px] " />
+      <Navbar className="xl:w-[1000px] w-[800px] xl:me-[30px]" />
+    </div>
+  </div>
+);
 
 export default Header;

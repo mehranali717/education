@@ -16,7 +16,7 @@ const Navbar = (props) => {
     <nav className={`${props.className} min-w-[660px]`}>
       <ul className="flex w-full justify-center flex-wrap">
         {navItems.map((item, index) => (
-          <li key={index}><Link to={item.url} className={`${props.navfont} text-[#76767f] text-[15px] px-[16px] font-[700] no-underline`} >{item.title}</Link></li>
+          <li key={index}><Link to={item.url} className={`${props.navfont} text-[#76767f] xl:text-[15px] text-[13px] px-[10px] xl:px-[16px] font-[600] lg:font-[700] no-underline`} >{item.title}</Link></li>
         ))}
       </ul>
     </nav>
