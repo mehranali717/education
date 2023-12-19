@@ -3,7 +3,7 @@ import { Footer, Header } from "../../sections";
 
 const MainLayout = () => (
   <>
-    <Header />
+    {/* <Header /> */}
     <Outlet />
     {/* <Footer /> */}
   </>

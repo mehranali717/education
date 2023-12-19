@@ -1,10 +1,10 @@
 const Vision = () => (
   <div className="">
-    <div className="w-[1200px] mx-auto flex flex-wrap justify-between px-[40px] pt-[104px]">
-      <div className="w-[560px]">
+    <div className="w-[1200px] mx-auto lg:flex flex-wrap justify-between px-[40px] pt-[104px]">
+      <div className="lg:w-[560px]">
         <h2 className="text-[#26262c] font-[500] text-[56px]">Vision & Mission</h2>
       </div>
-      <div className="w-[560px] pt-[40px] pe-[80px]">
+      <div className="lg:w-[560px] pt-[40px] pe-[80px]">
         <p className="font-[400] text-[16px] text-[#76767f] pb-[16px]">
           At Government Associate College (Boys) Kot Mithan, our vision is to be
           a hub of academic excellence and personal growth. We aim to provide a
@@ -15,7 +15,7 @@ const Vision = () => (
           society, fostering a lifelong love for learning.
         </p>
       </div>
-      <div className="w-[560px]">
+      <div className="lg:w-[560px]">
         <p className="font-[400] text-[16px] text-[#76767f] pb-[16px]">
           Our mission at Government Associate College (Boys) Kot Mithan is to
           provide a transformative education that combines academic excellence

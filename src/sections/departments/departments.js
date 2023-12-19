@@ -39,12 +39,12 @@ const thumbnailData = [
 ];
 const Departments = (props) => (
   <section className="py-[104px] px-[40px]">
-    <div className="w-[1200px] mx-auto ">
-      <div className="flex justify-between w-[100%]">
-        <div className="w-[50%]">
+    <div className="xl:w-[1200px] mx-auto ">
+      <div className="xl:flex justify-between ">
+        <div className="lg:w-[50%]">
           <h2 className="font-[400] text-[39px] text-[#26262c]">{props.title}</h2>
         </div>
-        <div className="w-[50%] pe-[80px]">
+        <div className="lg:w-[50%] pe-[80px]">
           <p className="font-[400] text-[16px] text-[#76767f] py-[46px]">
            {props.tagline}
           </p>
