@@ -11,7 +11,7 @@ const SportsData = [
 ];
 const Cocurricular = () => (
   <div className="py-[104px] px-[40px]">
-    <div className="w-[1200px] mx-auto flex flex-col lg:flex-row gap-y-[40px] items-center justify-between lg:items-start ">
+    <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto flex flex-col lg:flex-row gap-y-[40px] items-center justify-between lg:items-start ">
       <div className="flex flex-col gap-y-[15px] w-[700px] lg:w-[550px] ">
         {SportsData.map((item, index) => (
           <Images image={item.image} key={index} className="rounded-[8px] shadow-lg" />

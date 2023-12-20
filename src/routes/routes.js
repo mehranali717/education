@@ -1,6 +1,6 @@
 import { Navigate, useRoutes } from "react-router-dom";
 import { MainLayout } from "../layouts";
-import { ContactUs, Faculty, Home } from "../pages";
+import { ContactUs, Faculty, Home, Timetable } from "../pages";
 import { Detail } from "../components";
 
 export const Routes = () => {
@@ -12,6 +12,7 @@ export const Routes = () => {
         { path: "/contact-us", element: <ContactUs /> },
         { path: "/faculty", element: <Faculty /> },
         { path: "view", element: <Detail /> },
+        { path:"time-table", element:<Timetable />},
         { path: "*", element: <Navigate to="/home" /> },
       ],
     },

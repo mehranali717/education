@@ -8,12 +8,12 @@ import {
 } from "../../sections";
 const Home = () => (
   <>
-    {/* <Banner /> */}
-    {/* <Vision /> */}
-    {/* <States /> */}
-     {/* <Testimonial /> */}
-    {/* <Departments title="Departments" tagline= {DepartmentTagline}/> */}
-    {/* <Cocurricular /> */}
+    <Banner />
+    <Vision />
+    <States />
+     <Testimonial />
+    <Departments title="Departments" tagline= {DepartmentTagline}/>
+    <Cocurricular />
     <Login />
   </>
 );

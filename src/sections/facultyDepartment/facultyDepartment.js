@@ -9,14 +9,14 @@ const thumbnailData = [
 ]
 const FacultyDepart = (props) => (
   <section className="py-[104px] px-[40px]">
-    <div className="w-[1200px] mx-auto ">
-      <div className="flex justify-between w-[100%]">
+    <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto ">
+      <div className="lg:flex justify-between w-[100%]">
         <div className="w-[50%]">
           <h2 className="font-[400] text-[39px] text-[#26262c]">
             {props.title}
           </h2>
         </div>
-        <div className="w-[50%] pe-[80px]">
+        <div className="lg:w-[50%] pe-[80px]">
           <p className="font-[400] text-[16px] text-[#76767f] py-[46px]">
             {props.tagline}
           </p>

@@ -1,6 +1,7 @@
 .loginbg {
     background: url(../../assets/images/loginbg.jpg) no-repeat ;
     width:100%;
+    background-size: cover;
     height: 542px;
 }
 .formbg {
