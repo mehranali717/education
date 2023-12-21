@@ -11,7 +11,7 @@ const Thumbnail = ({ thumbnail, faculty = false }) => {
     });
   };
   return (
-      <div className="w-[367px] h-[520px] overflow-hidden  mx-auto  shadow-lg">
+      <div className="w-[367px] h-[520px] overflow-hidden  mx-auto  shadow-lg bg-gradient-to-t from-green-200 to-transparent via-white">
         <Images
           image={thumbnail.image}
           className="w-[367px] h-auto pb-[15px] rounded-[8px] transition-transform transform hover:scale-110 hover:transition-transform duration-300"

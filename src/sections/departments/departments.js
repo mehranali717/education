@@ -38,7 +38,7 @@ const thumbnailData = [
   },
 ];
 const Departments = (props) => (
-  <section className="py-[104px] px-[40px]">
+  <section className="py-[104px] px-[40px] bg-gradient-to-t from-purple-300 via-white to-purple-100">
     <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto ">
       <div className="xl:flex justify-between ">
         <div className="lg:w-[50%]">

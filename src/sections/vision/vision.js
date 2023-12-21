@@ -1,5 +1,4 @@
 const Vision = () => (
-  <div className="">
     <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto lg:flex flex-wrap justify-between px-[40px] pt-[104px]">
       <div className="lg:w-[560px]">
         <h2 className="text-[#26262c] font-[500] text-[56px]">Vision & Mission</h2>
@@ -26,6 +25,5 @@ const Vision = () => (
         </p>
       </div>
     </div>
-  </div>
 );
 export default Vision

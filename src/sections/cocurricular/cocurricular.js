@@ -10,7 +10,7 @@ const SportsData = [
   { image: sports3Image },
 ];
 const Cocurricular = () => (
-  <div className="py-[104px] px-[40px]">
+  <div className="py-[104px] px-[40px] bg-gradient-to-t from-purple-300 via-white to-purple-100">
     <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto flex flex-col lg:flex-row gap-y-[40px] items-center justify-between lg:items-start ">
       <div className="flex flex-col gap-y-[15px] w-[700px] lg:w-[550px] ">
         {SportsData.map((item, index) => (

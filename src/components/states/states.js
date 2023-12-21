@@ -1,5 +1,5 @@
 const States = () => (
-  <div className="pb-[104px]">
+  <div className="pb-[104px] ">
     <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-[auto]">
       <h2 className="font-[700] text-[#26262c] text-[18px] text-center">
         Govt Boys Associate College Kot Mithan at a Glance

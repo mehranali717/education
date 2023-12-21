@@ -6,7 +6,7 @@ const Detail = () => {
   const location = useLocation();
   const data = location.state.data;
   return (
-    <div className="w-[867px] h-[320px] overflow-hidden flex gap-x-[20px] mx-auto  shadow-lg my-[50px]">
+    <div className="w-[867px] h-[320px] overflow-hidden rounded-[5px] flex gap-x-[20px] mx-auto  shadow-lg my-[50px] bg-gradient-to-r from-white via-purple-100 to-purple-300">
       <Images
         image={data.image}
         className="w-[367px] h-auto pb-[15px] rounded-[8px] transition-transform transform hover:scale-110 hover:transition-transform duration-300"

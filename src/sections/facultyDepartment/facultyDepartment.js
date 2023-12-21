@@ -8,7 +8,7 @@ const thumbnailData = [
     {image:thumbnailImage3, title:"Muhammad Zubair", destination:"Lecturer ( Political Science)",  email:"email@email.com", institute:"Shaikh Ahmad Hassan School of Law" , description:"Dr. Sadaf Aziz joined the Department of Law and Policy as an Assistant Professor and was amongst the small cohort of faculty who launched the BA-LL.B. program here. She designed the first labour law"},
 ]
 const FacultyDepart = (props) => (
-  <section className="py-[104px] px-[40px]">
+  <section className="py-[104px] px-[40px] bg-gradient-to-t from-purple-300 via-transparent to-purple-100">
     <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto ">
       <div className="lg:flex justify-between w-[100%]">
         <div className="w-[50%]">
