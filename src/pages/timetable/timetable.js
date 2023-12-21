@@ -15,12 +15,12 @@ const Timetable = () => {
 
   return (
     <div className="container mx-auto p-8">
-      <div className="bg-gradient-to-r from-[#f98526] via-purple-100 to-[#f98526] py-[7px] rounded mb-[15px]">
+      <div className="bg-purple-400 py-[7px] rounded mb-[15px]">
         <h1 className="text-2xl text-[#3f3f3f] font-[500] text-center">School Calendar (2023-24)</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {timetableData.map(({ day, date, detail }) => (
-          <div key={date} className=" rounded-[30px] bg-gradient-to-t from-purple-200 via-white to-purple-200 p-4  ">
+          <div key={date} className=" rounded-[30px] bg-purple-200 p-4  ">
             <h2 className="text-xl font-bold mb-2">{day}</h2>
             <p className="text-gray-700">{date}</p>
             <p className="mt-2">{detail}</p>
