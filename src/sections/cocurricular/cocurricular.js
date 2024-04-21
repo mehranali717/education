@@ -24,7 +24,7 @@ const Cocurricular = () => (
         <div className="flex gap-[10px] ">
           <Images image={CircleImage} className="w-[25px] h-[25px]" />
           <div className="flex flex-col gap-[10px]">
-            <span className="text-[#26262c] text-[24px] font-[500]">
+            <span className="text-[#26262c] text-[18px] md:text-[24px] font-[500]">
               Sports
             </span>
             <p className="font-[400] text-[16px] text-[#76767f]">
@@ -37,7 +37,7 @@ const Cocurricular = () => (
         <div className="flex gap-[10px] ">
           <Images image={CircleImage} className="w-[25px] h-[25px]" />
           <div className="flex flex-col gap-[10px]">
-            <span className="text-[#26262c] text-[24px] font-[500]">
+            <span className="text-[#26262c] text-[18px] md:text-[24px] font-[500]">
               Debates and Public Speaking:
             </span>
             <p className="font-[400] text-[16px] text-[#76767f]">
@@ -49,7 +49,7 @@ const Cocurricular = () => (
         <div className="flex gap-[10px] ">
           <Images image={CircleImage} className="w-[25px] h-[25px] " />
           <div className="flex flex-col gap-[10px]">
-            <span className="text-[#26262c] text-[24px] font-[500]">
+            <span className="text-[#26262c] text-[18px] md:text-[24px] font-[500]">
               Career Guidance Sessions:
             </span>
             <p className="font-[400] text-[16px] text-[#76767f]">
