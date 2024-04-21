@@ -9,7 +9,7 @@ const thumbnailData = [
 ]
 const FacultyDepart = (props) => (
   <section className="py-[104px] px-[40px] bg-gradient-to-t from-purple-300 via-transparent to-purple-100">
-    <div className="w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto ">
+    <div className="w-full md:w-[600px] lg:w-[900px] xl:w-[1200px] mx-auto ">
       <div className="lg:flex justify-between w-[100%]">
         <div className="w-[50%]">
           <h2 className="font-[400] text-[39px] text-[#26262c]">

@@ -13,7 +13,7 @@ const ContactUs = () => {
     <div className="bg-gradient-to-t from-purple-300 via-white to-purple-100">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="w-[600px] mx-auto py-[25px] flex justify-center py-[40px]"
+        className="w-full md:w-[600px] mx-auto py-[25px] flex justify-center py-[40px]"
       >
         <div className="w-[500px] flex flex-col items-start px-[25px] gap-y-[15px]">
           <Input

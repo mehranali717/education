@@ -1,3 +1,36 @@
 .header-bg {
 background:linear-gradient(rgba(255, 254, 254, 0.8),rgba(255, 255, 255, 1)), url(../../assets/images/banner-bg.jpg) no-repeat center;
 }
+
+/* header.css */
+
+.hamburger {
+    max-width: 35px;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    align-self: center;
+    right: 20px;
+    top: 30px;
+}
+
+.hamburger::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 100%;
+    top: 10px;
+    left: 0;
+    background-color: #333;
+}
+
+.hamburger::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 100%;
+    top: -10px;
+    left: 0;
+    background-color: #333;
+}
